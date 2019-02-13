@@ -2,6 +2,8 @@
 Simple matrix operation perform the fastest
 https://www.datascience.com/blog/7-methods-to-fit-linear-model-python
 
+for Robot calibration we will make use of scikit library for finding the best line fit. However, for learning purposes in Boston House data we create our own code using simple matrix multiplication as stated in the Least Square method solution. 
+
 Linear Regression establishes a relationship between dependent variable (Y) and one or more independent variables (X) using a best fit straight line (also known as regression line).
 It is represented by an equation Y=a+b*X + e, where a is intercept, b is slope of the line and e is error term. This equation can be used to predict the value of target variable based on given predictor variable(s).
 
