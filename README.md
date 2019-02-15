@@ -4,41 +4,37 @@ Intro to Machine Learning and Optimization. COMPENDIUM of the different types of
 ## What is Regression Analysis?
 Regression analysis is a form of predictive modelling technique which investigates the relationship among variables. 
 
-A regression model relates $Y$ to $X$ and $Β$ <br>
-<center> $Y ≈ f ( X , Β )$ </center> 
+A regression model relates **𝑌** to **𝑋** and **Β**
+
+**𝑌** ≈ 𝑓(**𝑋**,**Β**) 
 
 where depending on the field: <br>
-- $X$ is known as the **independent variable**, predictor variable, regressor, covariate, controlled variable, manipulated variable, explanatory variable, exposure variable, risk factor, feature, or input variable.
-- $Y$ is known as the **dependent variable**, response variable, regressand, criterion, predicted variable, target variable, measured variable, explained variable, experimental variable, responding variable, outcome variable, label, or output variable.
-- $Β$ are the unknown parameters.
+- **𝑋** is known as the **independent variable**, predictor variable, regressor, covariate, controlled variable, manipulated variable, explanatory variable, exposure variable, risk factor, feature, or input variable.
+- **𝑌** is known as the **dependent variable**, response variable, regressand, criterion, predicted variable, target variable, measured variable, explained variable, experimental variable, responding variable, outcome variable, label, or output variable.
+- **Β** are the unknown parameters.
 
-If $Y ≈ f(X,Β) = X\cdotΒ$ we say the regression is linear otherwise it remains non-linear. If $Y$ and $B$ are matrices then we call the regression multivariate. If $Y$ and $Β$ are one dimensional vectors, i.e.,  $\mathbf{y}$ and $\mathbf{β}$, then the regression is univariate and this is generally assumed unless multivariate is specified.
+If **𝑌** ≈ 𝑓(**𝑋**,**Β**) = **𝑋⋅Β** we say the regression is linear otherwise it remains non-linear. If **𝑌** and **Β** are matrices then we call the regression multivariate. If **𝑌** and **Β** are one dimensional vectors, i.e.,  **𝐲** and **𝛃**, then the regression is univariate and this is generally assumed unless multivariate is specified.
 
 ### Notation
 To distinct vectors from matrices we will denote vectors in lower-case bold, i.e.,
 
-$\mathbf{x} = \begin{bmatrix}
-                x_1\\
-                x_2\\
-                \vdots\\
-                x_n
-\end{bmatrix}$
+<p align="left"><img src="./README_Images/vecx.JPG" height="70" width="70"></p>
 
-and matrices in upper-case bold. The transpose of a vector or matrix is indicated by a superscript $T$, i.e., $ \mathbf{x}^T$ is the transpose of $\mathbf{x}$.<br>
-The notation $||\mathbf{x}||_2$ refers to the Euclidean length of vector $\mathbf{x}$, i.e,
+and matrices in upper-case bold. The transpose of a vector or matrix is indicated by a superscript **𝑇**, i.e., **𝐱**<sup>**𝑇**</sup> is the transpose of **𝐱**.<br>
+The notation ||**𝐱**||<sub>2</sub> refers to the Euclidean length of vector **𝐱**, i.e,
 
-$||\mathbf{x}||_2 = \sqrt{x_1^2 + x_2^2 +...+ x_n^2}$
+<p align="left"><img src="./README_Images/EuclDist.JPG" height="200" width="200"></p>
 
-The sum of squares of $\mathbf{x}$ is denoted by $||\mathbf{x}||_2^2$, i.e.,
+The sum of squares of **𝐱** is denoted by ||**𝐱**||<sub>2</sub><sup>2</sup>, i.e.,
 
-$||\mathbf{x}||_2^2 = \displaystyle\sum_{i=1}^n x_i^2 =\mathbf{x}^T \cdot \mathbf{x}$
+<p align="left"><img src="./README_Images/Norm2.JPG" height="200" width="200"></p>
 
-The 'energy' of a vector $\mathbf{x}$ refers to $||\mathbf{x}||_2^2$. <br>
+The 'energy' of a vector **𝐱** refers to ||**𝐱**||<sub>2</sub><sup>2</sup>.
 
 In these notes, it is assumed that all vectors and matrices are real-valued. In the complex-valued case, the conjugate transpose should be used in place of the transpose, etc.
 
 ## Links to Regression Examples
-- Linear (Univariate) Regressions $\mathbf{y} = X\cdot\mathbf{β}$
+- Linear (Univariate) Regressions **𝐲** = **𝑋⋅𝛃**
     - [Simple and Multiple linear regression](./Simple_And_Multiple_Linear_Regression)
     - [Polynomial Regression](./Polynomial_Regression)  
     - Ridge Regression
