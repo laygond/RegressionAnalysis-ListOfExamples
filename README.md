@@ -18,16 +18,16 @@ If **𝑌** ≈ 𝑓(**𝑋**,**Β**) = **𝑋⋅Β** we say the regression is l
 ### Notation
 To distinct vectors from matrices we will denote vectors in lower-case bold, i.e.,
 
-<p align="left"><img src="./README_Images/vecx.JPG"></p>
+<p align="left"><img src="./README_Images/vecx.png"></p>
 
 and matrices in upper-case bold. The transpose of a vector or matrix is indicated by a superscript **𝑇**, i.e., **𝐱**<sup>**𝑇**</sup> is the transpose of **𝐱**.<br>
 The notation ||**𝐱**||<sub>2</sub> refers to the Euclidean length of vector **𝐱**, i.e,
 
-<p align="left"><img src="./README_Images/EuclDist.JPG" height="200" width="200"></p>
+<p align="left"><img src="./README_Images/EuclDist.png" height=auto width=auto></p>
 
 The sum of squares of **𝐱** is denoted by ||**𝐱**||<sub>2</sub><sup>2</sup>, i.e.,
 
-<p align="left"><img src="./README_Images/Norm2.JPG" height="200" width="200"></p>
+<p align="left"><img src="./README_Images/Norm2.png" height=auto width=auto></p>
 
 The 'energy' of a vector **𝐱** refers to ||**𝐱**||<sub>2</sub><sup>2</sup>.
 
