@@ -18,7 +18,7 @@ If **𝑌** ≈ 𝑓(**𝑋**,**Β**) = **𝑋⋅Β** we say the regression is l
 ### Notation
 To distinct vectors from matrices we will denote vectors in lower-case bold, i.e.,
 
-<p align="left"><img src="./README_Images/vecx.JPG" height="70" width="70"></p>
+<p align="left"><img src="./README_Images/vecx.JPG"></p>
 
 and matrices in upper-case bold. The transpose of a vector or matrix is indicated by a superscript **𝑇**, i.e., **𝐱**<sup>**𝑇**</sup> is the transpose of **𝐱**.<br>
 The notation ||**𝐱**||<sub>2</sub> refers to the Euclidean length of vector **𝐱**, i.e,
