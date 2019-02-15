@@ -4,11 +4,12 @@ Intro to Machine Learning and Optimization. COMPENDIUM of the different types of
 ## What is Regression Analysis?
 Regression analysis is a form of predictive modelling technique which investigates the relationship among variables. 
 
-A regression model relates **𝑌** to **𝑋** and **Β**
+A regression model relates **𝑌** to **𝑋** and **B**
 
-**𝑌** ≈ 𝑓(**𝑋**,**Β**) 
+<p align="left"><img src="./README_Images/regression.png"></p>
 
-where depending on the field: <br>
+where depending on the field:
+
 - **𝑋** is known as the **independent variable**, predictor variable, regressor, covariate, controlled variable, manipulated variable, explanatory variable, exposure variable, risk factor, feature, or input variable.
 - **𝑌** is known as the **dependent variable**, response variable, regressand, criterion, predicted variable, target variable, measured variable, explained variable, experimental variable, responding variable, outcome variable, label, or output variable.
 - **Β** are the unknown parameters.
