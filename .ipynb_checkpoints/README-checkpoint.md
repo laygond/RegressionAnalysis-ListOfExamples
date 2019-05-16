@@ -1,27 +1,42 @@
 # RegressionAnalysis-ListOfExamples
 Intro to Machine Learning and Optimization. COMPENDIUM of the different types of regression techniques used in Machine Learning and Optimization as well as guidance to what libraries can be used in Python.
 
+## Regression Examples
+- Linear (Univariate) Regressions **𝐲** ≈ **𝐗⋅𝛃**
+    - [Simple and Multiple linear regression](./Simple_And_Multiple_Linear_Regression)
+    - [Polynomial Regression](./Polynomial_Regression)  
+    - Ridge Regression
+    - Lasso Regression
+    - ElasticNet Regression
+    - [Logistic Regression](./Logistic_Regression)
+
 ## What is Regression Analysis?
 Regression analysis is a form of predictive modelling technique which investigates the relationship among variables. 
 
-A regression model relates **𝑌** to **𝑋** and **B**
+A regression model relates **𝐘** to **𝐗** and **B**
 
 <p align="left"><img src="./README_Images/regression.png"></p>
 
 where depending on the field:
 
-- **𝑋** is known as the **independent variable**, predictor variable, regressor, covariate, controlled variable, manipulated variable, explanatory variable, exposure variable, risk factor, feature, or input variable.
-- **𝑌** is known as the **dependent variable**, response variable, regressand, criterion, predicted variable, target variable, measured variable, explained variable, experimental variable, responding variable, outcome variable, label, or output variable.
+- **𝐗** is known as the **independent variable**, predictor variable, regressor, covariate, controlled variable, manipulated variable, explanatory variable, exposure variable, risk factor, feature, or input variable.
+- **𝐘** is known as the **dependent variable**, response variable, regressand, criterion, predicted variable, target variable, measured variable, explained variable, experimental variable, responding variable, outcome variable, label, or output variable.
 - **Β** are the unknown parameters.
+- 𝑓(**𝐗** , **Β**) is the predicted regression and it is also known as '**𝐘** hat' ,i.e., <img src="./README_Images/y_hat.png">.
+- ≈ is read as approximately.
 
-If **𝑌** ≈ 𝑓(**𝑋**,**Β**) = **𝑋⋅Β** we say the regression is linear otherwise it remains non-linear. If **𝑌** and **Β** are matrices then we call the regression multivariate. If **𝑌** and **Β** are one dimensional vectors, i.e.,  **𝐲** and **𝛃**, then the regression is univariate and this is generally assumed unless multivariate is specified.
+The complete relationship **𝐘** to **𝐗** and **B** requires an adjustment error variable **E**, i.e., 
+
+<p align="left"><img src="./README_Images/complete_regression.png"></p>
+
+If **𝐘** ≈ 𝑓(**𝐗**,**Β**) = **𝐗⋅Β** we say the regression is linear otherwise it remains non-linear. If **𝐘** and **Β** are matrices then we call the regression multivariate. If **𝐘** and **Β** are one dimensional vectors, i.e.,  **𝐲** and **𝛃**, then the regression is univariate and this is generally assumed unless multivariate is specified.
 
 ### Notation
 To distinct vectors from matrices we will denote vectors in lower-case bold, i.e.,
 
 <p align="left"><img src="./README_Images/vecx.png"></p>
 
-and matrices in upper-case bold. The transpose of a vector or matrix is indicated by a superscript **𝑇**, i.e., **𝐱**<sup>**𝑇**</sup> is the transpose of **𝐱**.<br>
+and matrices in upper-case bold. Scalars will be just lower-case. The transpose of a vector or matrix is indicated by a superscript **𝑇**, i.e., **𝐱**<sup>**𝑇**</sup> is the transpose of **𝐱**.<br>
 The notation ||**𝐱**||<sub>2</sub> refers to the Euclidean length of vector **𝐱**, i.e,
 
 <p align="left"><img src="./README_Images/EuclDist.png" height=auto width=auto></p>
@@ -33,15 +48,6 @@ The sum of squares of **𝐱** is denoted by ||**𝐱**||<sub>2</sub><sup>2</sup
 The 'energy' of a vector **𝐱** refers to ||**𝐱**||<sub>2</sub><sup>2</sup>.
 
 In these notes, it is assumed that all vectors and matrices are real-valued. In the complex-valued case, the conjugate transpose should be used in place of the transpose, etc.
-
-## Links to Regression Examples
-- Linear (Univariate) Regressions **𝐲** = **𝑋⋅𝛃**
-    - [Simple and Multiple linear regression](./Simple_And_Multiple_Linear_Regression)
-    - [Polynomial Regression](./Polynomial_Regression)  
-    - Ridge Regression
-    - Lasso Regression
-    - ElasticNet Regression
-    - [Logistic Regression](./Logistic_Regression)
 
 ## Essential Libraries for Machine Learning in Python
 The following is a summary of libraries that will be used throughout the REPO. 
